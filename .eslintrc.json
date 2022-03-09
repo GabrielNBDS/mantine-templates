@@ -22,6 +22,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "no-trailing-spaces": "error",
         "object-shorthand": "error",
         "react/self-closing-comp": "error",
         "react/react-in-jsx-scope": "off",
