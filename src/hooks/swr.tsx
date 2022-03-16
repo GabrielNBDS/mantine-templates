@@ -1,5 +1,5 @@
 
-  
+
 import { ReactNode } from 'react'
 import { SWRConfig } from 'swr'
 import api from '../lib/axios'
