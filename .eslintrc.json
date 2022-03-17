@@ -22,6 +22,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "no-console": "error",
         "eol-last": "error",
         "prefer-template": "error",
         "no-trailing-spaces": "error",

@@ -9,13 +9,10 @@ import {
 	Text,
 	TextInput,
 	Title,
-	useMantineTheme,
 } from '@mantine/core'
 import { useForm } from '@mantine/hooks'
 
 export function LeftAlignForm() {
-	const theme = useMantineTheme()
-
 	const form = useForm({
 		initialValues: {
 			email: '',
@@ -79,16 +76,17 @@ export function LeftAlignForm() {
 							},
 						}}
 					>
-					Quickly design and customize responsive mobile-first sites
-					with Bootstrap, the world&apos;s most popular front-end open
-					source toolkit, featuring Sass variables and mixins,
-					responsive grid system, extensive prebuilt components, and
-					powerful JavaScript plugins.
+						Quickly design and customize responsive mobile-first sites
+						with Bootstrap, the world&apos;s most popular front-end open
+						source toolkit, featuring Sass variables and mixins,
+						responsive grid system, extensive prebuilt components, and
+						powerful JavaScript plugins.
 					</Text>
 				</Group>
 
 				<Box
 					component="form"
+					// eslint-disable-next-line no-console
 					onSubmit={form.onSubmit((values) => console.log(values))}
 				>
 					<Card

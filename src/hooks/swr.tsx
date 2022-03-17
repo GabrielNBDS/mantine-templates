@@ -5,8 +5,6 @@ import { SWRConfig } from 'swr'
 import api from '../lib/axios'
 
 export const fetcher = async (url: string, override = false) => {
-	console.log(url, override)
-
 	if(override) {
 		return (await api.get(url)).data
 	}
