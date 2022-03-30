@@ -20,7 +20,7 @@ function Authentication({ templates }: IProps) {
 	return (
 		<>
 			<Container sx={{ paddingTop: 16, paddingBottom: 16 }}>
-				<Title>Erro</Title>
+				<Title>Authentication</Title>
 			</Container>
 
 			{templates.map((component, index) => (
